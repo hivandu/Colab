@@ -1,0 +1,143 @@
+.slide3 {
+    background-color: #0E0706;
+    opacity: 0;
+    .slide3-mask {
+        position: absolute;
+        width: 100%;
+        top: 0.33rem;
+        left: 0;
+        z-index: 101;
+    }
+    .slide3-2 {
+        position: absolute;
+        width: 24.86rem;
+        z-index: 98;
+        opacity: 0;
+        top: 0.33rem;
+    }
+    .slide3-3 {
+        position: absolute;
+        width: 24.86rem;
+        z-index: 97;
+        opacity: 0;
+    }
+    .slide3-bg {
+        position: absolute;
+        width: 24.8rem;
+        top: 0.33rem;
+    }
+    .slide-font {
+        top: 0;
+        left: 0;
+        background: url(../images/slide3-font.png) no-repeat;
+        background-size: 1600px;
+        opacity: 1;
+    }
+    .slide-font-outer {
+        top: 12rem;
+        left: 4.3rem;
+    }
+}
+
+.slide3-text {
+    position: absolute;
+    z-index: 101;
+    top: 28.86rem;
+    left: 2.73rem;
+    .slide3-t-1 {
+        width: 0.96rem;
+        top: 0.2rem;
+        left: 0;
+        position: absolute;
+        opacity: 0;
+    }
+    .slide3-t-2 {
+        position: absolute;
+        opacity: 0;
+        width: 2.7rem;
+        top: 0;
+        left: 1.53rem;
+    }
+    .slide3-t-3 {
+        position: absolute;
+        opacity: 0;
+        width: 0.9rem;
+        top: 0.26rem;
+        left: 4.8rem;
+    }
+    .slide3-t-4 {
+        position: absolute;
+        opacity: 0;
+        width: 0.83rem;
+        top: 0.26rem;
+        left: 6.03rem;
+    }
+}
+
+.helix {
+    width: 9.93rem;
+    height: 8.6rem;
+    position: absolute;
+    top: 14.3rem;
+    left: 9rem;
+    z-index: 101;
+}
+
+.helix-1,
+.helix-2,
+.helix-3,
+.helix-4,
+.helix-5,
+.helix-6,
+.helix-7 {
+    animation: circle 7s infinite ease;
+}
+
+.helix-1 {
+    position: absolute;
+    width: 1.7rem;
+    top: 0;
+    left: 6rem;
+}
+
+.helix-2 {
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    width: 1.2rem;
+}
+
+.helix-3 {
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+    width: 1rem;
+}
+
+.helix-4 {
+    position: absolute;
+    top: 5rem;
+    left: 1rem;
+    width: 0.8rem;
+}
+
+.helix-5 {
+    position: absolute;
+    width: 1.2rem;
+    top: 4rem;
+    left: 4rem;
+}
+
+.helix-6 {
+    position: absolute;
+    width: 1.1rem;
+    top: 5rem;
+    left: -1rem;
+}
+
+.helix-7 {
+    position: absolute;
+    width: 1rem;
+    top: 3rem;
+    left: 8rem;
+}

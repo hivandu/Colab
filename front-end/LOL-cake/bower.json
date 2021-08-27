@@ -1,0 +1,21 @@
+{
+  "name": "LOL-Cake",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Hivan Du"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.5.2"
+  }
+}
