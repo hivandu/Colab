@@ -1,0 +1,13 @@
+.DS_Store
+*.icloud
+.vscode/
+.ipynb_checkpoints/
+Thumbs.db
+db.json
+debug.log
+node_modules/
+public/
+dist/
+.deploy/
+yarn.lock
+resource/
